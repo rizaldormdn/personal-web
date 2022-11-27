@@ -1,0 +1,355 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+/* navbar */
+
+.flex-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+.logo a:hover {
+  color: tomato;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+nav li:hover > a {
+  color: tomato;
+}
+nav ul li .dropdown {
+  display: none;
+}
+nav ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  padding: 5px;
+}
+nav ul li:hover .dropdown li {
+  padding: 5px 0;
+}
+/* header */
+
+.profile {
+  font-family: "roboto", sans-serif;
+  min-height: 60vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80%;
+  margin: 50px auto;
+}
+.profile img {
+  width: 400px;
+  border-radius: 10px;
+}
+.profile h2 {
+  font-size: 30px;
+}
+.profile p {
+  font-size: 20px;
+}
+.resume .dwnld a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.resume .dwnld a:hover {
+  background-color: #333;
+  color: white;
+  transition: 1.0s;
+}
+.medsos a {
+  color: black;
+  margin-right: 20px;
+}
+.resume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.resume a {
+  color: black;
+}
+/* section education */
+
+.edu {
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+}
+.edu img {
+  width: 600px;
+}
+.edu-title {
+  margin-top: 100px;
+}
+.edu ol {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.edu ol li {
+  padding: 10px;
+}
+section h2 {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 35px;
+}
+/* section experience */
+
+.work {
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+table tr td {
+  padding: 10px;
+}
+.work img {
+  width: 600px;
+}
+/* section skill */
+
+.skill {
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill img {
+  width: 600px;
+}
+.html {
+  padding-top: 10px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.html-2 {
+  height: 10px;
+  width: 30vw;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.html-3 {
+  width: 80%;
+  position: relative;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+.css-3 {
+  width: 70%;
+  position: relative;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+.botstrap-3 {
+  width: 50%;
+  position: relative;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+.javascript-3 {
+  width: 35%;
+  position: relative;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+.golang-3 {
+  width: 20%;
+  position: relative;
+  height: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+.html-4 {
+  position: absolute;
+  right: -15px;
+  top: -50px;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+/* section portfolio */
+
+.portfolio {
+  min-height: 70vh;
+}
+.container-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}
+.card {
+  border: 1px solid black;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.card:hover {
+  background-color: #333;
+  color: white;
+  transform: scale(1.1);
+  transition: 1.0s;
+}
+.card img {
+     width: 100%;
+     border-radius: 10px; ;
+     border: 1px solid black;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+     display: flex;
+     justify-content: space-between;
+}
+.button button {
+     border-radius: 5px;
+     padding: 5px;
+     background-color: #333;
+     color: white;
+     cursor: pointer;
+}
+/* section contact */
+
+.informasi {
+  font-family: "roboto", sans-serif;
+  min-height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+.info > h3 {
+  font-size: 35px;
+}
+.informasi > .info {
+  padding: 10px;
+}
+.info2 {
+  display: flex;
+  justify-content: space-between;
+}
+.info2 a {
+  color: black;
+  margin-right: 20px;
+}
+.container-form {
+  padding: 20px;
+}
+form {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.submit > button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 20px 5px 20px;
+}
+.submit > button:hover {
+  background-color: #333;
+  border-radius: 10px;
+  transition: 0.75s;
+  color: white;
+}
+form,
+input,
+textarea {
+  outline: 0;
+  border-width: 0 0 2px;
+  padding: 10px;
+  margin: 10px;
+}
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  border-top: 2px solid black;
+}
+@media screen and (max-width: 500px) {
+  .html-2 {
+    width: 90vw;
+  }
+  form {
+    width: 90vw;
+  }
+  .edu img,
+  .work img,
+  .skill img {
+    width: 400px;
+  }
+  .profile {
+    border: none;
+  }
+  .profile img {
+    border: 5px solid black;
+    border-radius: 100%;
+     width: 250px;
+  }
+  .edu ol {
+    width: 80%;
+  }
+  .container-card {
+     width: 80vw;
+     margin: 50px auto;
+  }
+}
